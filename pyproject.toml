@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "19-lesson-hw"
+version = "0.1.0"
+description = ""
+authors = ["NastyaGavrichenkova <lady_markos@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.4.2"
+requests = "^2.31.0"
+jsonschema = "^4.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
